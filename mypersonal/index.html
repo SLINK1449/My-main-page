@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian - Dev & IA</title>
+    <scrippt src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Profile Section -->
+    <div class="section-container me">
+        <div class="window-controls">
+            <button class="window-btn close-btn"></button>
+            <button class="window-btn minimize-btn"></button>
+            <button class="window-btn fullscreen-btn"></button>
+        </div>
+        <img src="153468019.jpeg" alt="Profile Photo">
+        <h1>Hi, I'm Brian</h1>
+        <p>Web Developer & Machine Learning Engineer</p>
+        <p>Turning ideas into digital realities</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section-container">
+        <div class="window-controls">
+            <button class="window-btn close-btn"></button>
+            <button class="window-btn minimize-btn"></button>
+            <button class="window-btn fullscreen-btn"></button>
+        </div>
+        <div class="web-skills">
+            <div class="skill-card">
+                <h3>🛠 Tech Stack</h3>
+                <p>Angular | Node.js | WordPress</p>
+                <div class="code-example">
+                    <pre><code>// API Example
+app.get('/api/projects', (req, res) => {
+    res.json(projects);
+});</code></pre>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>🚀 Latest Project</h3>
+                <p>Angular + WooCommerce E-commerce</p>
+                <div class="live-preview">
+                    <img src="placeholder-website.jpg" alt="Project Demo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chatbot Section -->
+    <div class="section-container">
+        <div class="window-controls">
+            <button class="window-btn close-btn"></button>
+            <button class="window-btn minimize-btn"></button>
+            <button class="window-btn fullscreen-btn"></button>
+        </div>
+        <div class="chatbot-container">
+            <div class="chat-history" id="chatHistory">
+                <div class="message bot-message">¡Hi! I'm SLINK1449. How can I help you?</div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your message...">
+            </div>
+        </div>
+    </div>
+
+    <!-- WordPress Section -->
+    <div class="section-container wp-demo">
+        <div class="window-controls">
+            <button class="window-btn close-btn"></button>
+            <button class="window-btn minimize-btn"></button>
+            <button class="window-btn fullscreen-btn"></button>
+        </div>
+        <div class="wp-admin-bar">
+            <span>WP Admin Panel</span>
+            <button>+ Add Block</button>
+        </div>
+        <div class="wp-block">
+            <h3>📱 Modern Landing Page</h3>
+            <ul>
+                <li>Smart Contact Form</li>
+                <li>Custom CSS Animations</li>
+                <li>Mailchimp Integration</li>
+            </ul>
+        </div>
+        <div class="wp-block">
+            <h3>🛒 Online Store</h3>
+            <div class="features-grid">
+                <div>Payment Gateway</div>
+                <div>Inventory Management</div>
+                <div>Built-in Analytics</div>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>
